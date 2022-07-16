@@ -1,0 +1,144 @@
+1.
+#include<stdio.h>
+int main(){
+ int a;
+ printf("Enter a number");
+ scanf("%d",&a);
+ printf("Unit digit of a entered number is %d ",a%10);
+ return 0;
+
+}
+--------------------------------------------------------
+2.
+#include<stdio.h>
+int main(){
+ int a;
+ printf("Enter a number");
+ scanf("%d",&a);
+ printf("Entered number is %d and without last digit is %d",a,a/10);
+ return 0;
+
+}
+---------------------------------------------------------------------------
+3.
+#include<stdio.h>
+int main(){
+ int a,b,c;
+  printf("Enter two numbers");
+  scanf("%d%d",&a,&b);
+  c=a;
+  a=b;
+  b=c;
+  printf("a=%d and b=%d",a,b);
+  return 0;
+
+}
+--------------------------------------------------
+4.
+#include<stdio.h>
+int main(){
+ int a,b,c;
+  printf("Enter two numbers");
+  scanf("%d%d",&a,&b);
+  printf("a=%d and b=%d",b,a);
+  return 0;
+
+}
+-------------------------------------
+5.
+#include<stdio.h>
+int main(){
+ int a,b,c=0,x,i=0;
+  printf("Enter Three digit numbers");
+  scanf("%d",&a);
+  while(i<3){
+   b=a%10;
+   a=a/10;
+   c=c+b;
+    i++;
+  }
+  printf("sum of digits is %d",c);
+  return 0;
+
+}
+-----------------------------------------
+6.
+#include<stdio.h>
+int main(){
+   char a;
+   printf("Enter a character:");
+   scanf("%c",&a);
+   printf("ASCII code of entered number is :%d",a);
+  return 0;
+
+}
+---------------------------------------------------------
+8.
+#include<stdio.h>
+int main(){
+  int a;
+  printf("Enter a number");
+  scanf("%d",&a);
+  if(a%2==0){
+    printf("Entered number is even");
+  }
+  else{
+    printf("Entered number is odd");
+  }
+  return 0;
+
+}
+--------------------------------------------------
+9.
+#include<stdio.h>
+int main(){
+  int a;
+  float b;
+  char c;
+  double d;
+  printf("%d",sizeof(a));
+  printf("\n%d",sizeof(b));
+  printf("\n%d",sizeof(c));
+  printf("\n%d",sizeof(d));
+  return 0;
+
+}
+------------------------------------------
+10.
+#include<stdio.h>
+int main(){
+  int a,b;
+  printf("Enter a number");
+  scanf("%d",&a);
+  b=a/10;
+  printf("%d0",b);
+  return 0;
+
+}
+---------------------------------------------
+11.
+#include<stdio.h>
+int main(){
+  int a,b,c;
+  printf("Enter a number");
+  scanf("%d",&a);
+  printf("Enter a digit to add");
+  scanf("%d",&b);
+  printf("%d%d",a,b);
+  return 0;
+
+}
+---------------------------------------------
+12.
+#include<stdio.h>
+int main(){
+  float a,b;
+  printf("Enter INR value:");
+  scanf("%f",&a);
+  b=76.23*a;
+  printf("Enterd INR value is: %.2f and its USD value is: %.2f",a,b);
+  return 0;
+
+}
+--------------------------------------------------------------------------
+--------------------------------------------
